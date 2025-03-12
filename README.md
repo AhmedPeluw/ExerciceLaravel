@@ -2,8 +2,8 @@
 
 1️⃣ Install Dependencies
 
-   composer install
-   npm install
+    composer install
+    npm install
 
 2️⃣ run migration and Setup User Roles
 
