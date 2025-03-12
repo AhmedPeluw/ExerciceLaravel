@@ -27,13 +27,13 @@
 
    ✅ Listen for Payment Status Updates (Paid)
 
-   export STRIPE_API_KEY="sk_test_51Q6UEM2Lzh4cc0WOHGSJkJ326Si2Y400Y6I0zJslXAfYqtufzTgr0ReLRT0Z2cLQIuwv8iyJPyLNYiDOExgT5cHf00uhJRmw4E"
-   stripe listen --forward-to http://127.0.0.1:8000/api/stripe/webhook --api-key $STRIPE_API_KEY
+    export STRIPE_API_KEY="sk_test_51Q6UEM2Lzh4cc0WOHGSJkJ326Si2Y400Y6I0zJslXAfYqtufzTgr0ReLRT0Z2cLQIuwv8iyJPyLNYiDOExgT5cHf00uhJRmw4E"
+    stripe listen --forward-to http://127.0.0.1:8000/api/stripe/webhook --api-key $STRIPE_API_KEY
 
    ✅ Listen for Expired Payment Links
 
-   export STRIPE_API_KEY="sk_test_51Q6UEM2Lzh4cc0WOHGSJkJ326Si2Y400Y6I0zJslXAfYqtufzTgr0ReLRT0Z2cLQIuwv8iyJPyLNYiDOExgT5cHf00uhJRmw4E"
-   stripe listen --forward-to http://127.0.0.1:8000/api/stripe/webhookExpiration --api-key $STRIPE_API_KEY
+    export STRIPE_API_KEY="sk_test_51Q6UEM2Lzh4cc0WOHGSJkJ326Si2Y400Y6I0zJslXAfYqtufzTgr0ReLRT0Z2cLQIuwv8iyJPyLNYiDOExgT5cHf00uhJRmw4E"
+    stripe listen --forward-to http://127.0.0.1:8000/api/stripe/webhookExpiration --api-key $STRIPE_API_KEY
 
 5️⃣ Run Laravel Queue Worker
 
